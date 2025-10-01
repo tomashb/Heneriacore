@@ -1,0 +1,24 @@
+_version: 29
+
+proxies:
+  velocity:
+    enabled: true
+    online-mode: true
+    secret: "CHANGEZ_CE_SECRET_ICI_123456789"
+
+chunk-loading:
+  autoconfig-send-distance: true
+  enable-frustum-priority: true
+
+async-chunks:
+  threads: 4
+
+item-validation:
+  resolve-selectors-in-books: false
+
+messages:
+  kick:
+    authentication-servers-down: "&cLes serveurs d'authentification sont indisponibles."
+    connection-throttle: "&cTrop de connexions, réessaye plus tard."
+    flying-player: "&cVol non autorisé!"
+    flying-vehicle: "&cVéhicule volant non autorisé!"

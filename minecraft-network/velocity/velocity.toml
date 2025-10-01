@@ -1,0 +1,35 @@
+config-version = "2.7"
+
+bind = "0.0.0.0:25565"
+show-max-players = 500
+motd = "&6&lMON SERVEUR &8- &e1.21\n&7Bedwars &8• &7Nexus &8• &7Zombie"
+
+[servers]
+auth = "127.0.0.1:25566"
+lobby-1 = "127.0.0.1:25567"
+lobby-2 = "127.0.0.1:25568"
+lobby-3 = "127.0.0.1:25569"
+bedwars-1 = "127.0.0.1:25570"
+bedwars-2 = "127.0.0.1:25571"
+nexus-1 = "127.0.0.1:25572"
+nexus-2 = "127.0.0.1:25573"
+zombie-1 = "127.0.0.1:25574"
+zombie-2 = "127.0.0.1:25575"
+
+try = [
+    "auth"
+]
+
+[forced-hosts]
+
+[advanced]
+compression-threshold = 256
+compression-level = -1
+login-ratelimit = 3000
+read-buffer-size = 2048
+write-buffer-size = 2048
+
+[query]
+enabled = true
+port = 25565
+show-plugins = false
