@@ -1,0 +1,9 @@
+# Ignore runtime artifacts
+*.jar
+logs/
+cache/
+*.log
+session.lock
+world/
+# Screen socket files
+screenlog.*
